@@ -1,15 +1,16 @@
 {
   "expo": {
     "name": "FooodApp",
+    
     "slug": "FooodApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/download.png",
       "resizeMode": "contain",
-      "backgroundColor": "#FF7F7F"
+      "backgroundColor": "white"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mohanrapelli.FooodApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "daef38c5-8759-40f1-95d5-a5738be7a12f"
+      }
     }
   }
 }
